@@ -127,6 +127,8 @@ def reorderTriples(
     Reorder triple patterns so that we execute the
     ones with most bindings first
     """
+    
+    return l_  # do not reorder triples
 
     def _addvar(term: str, varsknown: Set[typing.Union[Variable, BNode]]):
         if isinstance(term, (Variable, BNode)):
